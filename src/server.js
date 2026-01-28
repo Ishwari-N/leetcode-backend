@@ -15,8 +15,9 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:3000",
   "https://code-quest-leet-code-tracker-git-main-ishwari-ns-projects.vercel.app",
-  "https://code-quest-leet-code-tracker.vercel.app", // Your main domain
-  "https://leetcode-backend.onrender.com" // Your backend URL once deployed
+  "https://code-quest-leet-code-tracker.vercel.app", // Your main frontend domain
+  "https://leetcode-backend-two.vercel.app", // Your actual backend URL (ADDED)
+  "https://leetcode-backend.onrender.com" // Keep this if you still use it
 ];
 
 app.use(cors({
